@@ -53,6 +53,7 @@ class Dice:
         self.sides = n
         self.roll()
 
+    # I believe this line is what is causing my trouble, but I am stuck as to what I did wrong
     def roll(self):
         self.value = int(random.random() * self.sides + 1)
 
