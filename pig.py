@@ -53,7 +53,7 @@ class Dice:
         self.sides = n
         self.roll()
 
-    # I believe this line is what is causing my trouble, but I am stuck as to what I did wrong
+    # I believe this line is what is causing my trouble, but I am stuck as to what I did wrong here
     def roll(self):
         self.value = int(random.random() * self.sides + 1)
 
@@ -62,6 +62,4 @@ if __name__ == "__main__":
     print('Welcome to the Pig game!')
     game = Pig()
     game.play()
-    print()
-    print()
     print('Bye')
